@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:syn_common_widget/default_style/default_style.dart';
 import 'package:syn_common_widget/syn_ui.dart';
 
 class LargeButton extends StatelessWidget {
@@ -41,15 +42,15 @@ class LargeButton extends StatelessWidget {
           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
           minimumSize: MaterialStateProperty.all<Size>(Size(minWidth, 48)),
           foregroundColor: MaterialStateProperty.all<Color>(
-            (backgroundColor == null || backgroundColor == AppColors.white)
-                ? color ?? AppColors.gray[700]!
-                : AppColors.white,
+            (backgroundColor == null || backgroundColor == CommonColors.white)
+                ? color ?? CommonColors.gray[700]!
+                : CommonColors.white,
           ),
           backgroundColor: MaterialStateProperty.resolveWith<Color>((states) {
             if (states.contains(MaterialState.disabled)) {
-              return AppColors.gray.shade200;
+              return DefaultButtonStyle.backgroundColor;
             }
-            return backgroundColor ?? AppColors.white[500]!;
+            return backgroundColor ?? CommonColors.white[500]!;
           }),
           // overlayColor: MaterialStateProperty.all<Color>(Colors.red),
           // surfaceTintColor: MaterialStateProperty.all<Color>(Colors.red),
@@ -57,20 +58,20 @@ class LargeButton extends StatelessWidget {
             (states) {
               if (states.contains(MaterialState.disabled)) {
                 return AppTypography.normalBold
-                    .copyWith(color: AppColors.gray[200]);
+                    .copyWith(color: CommonColors.gray[200]);
               }
               return (AppTypography.normalBold);
             },
           ),
           side: MaterialStateProperty.resolveWith<BorderSide>((states) {
             if (states.contains(MaterialState.disabled)) {
-              return BorderSide(color: AppColors.gray.shade200);
+              return BorderSide(color: CommonColors.gray.shade200);
             }
 
             return BorderSide(
               color: (backgroundColor == null ||
-                      backgroundColor == AppColors.white)
-                  ? colorBorder ?? AppColors.gray[200]!
+                      backgroundColor == CommonColors.white)
+                  ? colorBorder ?? CommonColors.gray[200]!
                   : backgroundColor!,
             );
           }),

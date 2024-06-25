@@ -38,7 +38,7 @@ class _CommonDateStartOptionWidgetState
         decoration: BoxDecoration(
           borderRadius: AppRadius.lg,
           border: Border.all(
-            color: AppColors.gray[200]!,
+            color: CommonColors.gray[200]!,
           ),
         ),
         child: Row(
@@ -90,39 +90,4 @@ class _CommonDateStartOptionWidgetState
     );
     return date.toUtc().millisecondsSinceEpoch.toDouble() / 1000;
   }
-
-  // Future<dynamic> _buildLeaveStartDateOption(BuildContext context) {
-  //   return showModalBottomSheetDynamic(
-  //     context,
-  //     title: 'Detail Murid',
-  //     titlePosition: Alignment.centerLeft,
-  //     topDevider: false,
-  //     // height: 180,
-  //     target: ListView.builder(
-  //       shrinkWrap: true,
-  //       itemCount: 10,
-  //       itemBuilder: (context, index) {
-  //         return GestureDetector(
-  //           onTap: () {
-  //             Navigator.of(context).pop();
-  //             // onGenderSelected!.call(state.genderSelected!.title);
-  //           },
-  //           child: Padding(
-  //             padding: const EdgeInsets.symmetric(vertical: 8),
-  //             child: Row(
-  //               children: [
-  //                 Expanded(
-  //                   child: Text(
-  //                     'menu.title',
-  //                     style: AppTypography.smallMedium,
-  //                   ),
-  //                 ),
-  //               ],
-  //             ),
-  //           ),
-  //         );
-  //       },
-  //     ),
-  //   );
-  // }
 }

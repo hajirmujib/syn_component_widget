@@ -17,13 +17,13 @@ class WidgetScreen extends StatelessWidget {
             CommonSwitch(
               value: false,
               widgetType: WidgetType.sm,
-              activeColor: AppColors.mBlue,
+              activeColor: CommonColors.mBlue,
               onChanged: (value) {},
             ),
             CommonSwitch(
               value: true,
               widgetType: WidgetType.sm,
-              activeColor: AppColors.mBlue,
+              activeColor: CommonColors.mBlue,
               onChanged: (value) {},
             ),
             const Text('Sample Switch Widget MD'),

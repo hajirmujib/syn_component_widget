@@ -8,11 +8,11 @@ export 'typography.dart';
 ThemeData themeLight() {
   return ThemeData.light().copyWith(
     // primaryColor: Color(0xFF007F80),
-    backgroundColor: AppColors.white,
-    primaryColor: AppColors.white,
+    backgroundColor: CommonColors.white,
+    primaryColor: CommonColors.white,
     primaryColorDark: const Color(0xFF007F80),
     appBarTheme: AppBarTheme(
-      iconTheme: const IconThemeData(color: AppColors.lBlack),
+      iconTheme: const IconThemeData(color: CommonColors.lBlack),
       backgroundColor: Colors.white,
       elevation: 1,
       shadowColor: const Color(0xFFD9D9D9),
@@ -21,29 +21,29 @@ ThemeData themeLight() {
     ),
     visualDensity: VisualDensity.adaptivePlatformDensity,
     textTheme: const TextTheme(
-      subtitle1: TextStyle(fontSize: 16, color: AppColors.xlBlack),
-      bodyText1: TextStyle(fontSize: 13, color: AppColors.xlBlack),
-      bodyText2: TextStyle(fontSize: 14, color: AppColors.xlBlack),
-      caption: TextStyle(fontSize: 10, color: AppColors.sGrey),
+      subtitle1: TextStyle(fontSize: 16, color: CommonColors.xlBlack),
+      bodyText1: TextStyle(fontSize: 13, color: CommonColors.xlBlack),
+      bodyText2: TextStyle(fontSize: 14, color: CommonColors.xlBlack),
+      caption: TextStyle(fontSize: 10, color: CommonColors.sGrey),
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
-        foregroundColor: MaterialStateProperty.all<Color>(AppColors.xlBlack),
+        foregroundColor: MaterialStateProperty.all<Color>(CommonColors.xlBlack),
       ),
     ),
     tabBarTheme: TabBarTheme(
-      unselectedLabelColor: AppColors.tabNotSelected,
-      unselectedLabelStyle: const TextStyle(color: AppColors.tabNotSelected),
-      labelColor: AppColors.mBlue,
+      unselectedLabelColor: CommonColors.tabNotSelected,
+      unselectedLabelStyle: const TextStyle(color: CommonColors.tabNotSelected),
+      labelColor: CommonColors.mBlue,
       labelStyle: AppTypography.smallSemiBold,
     ),
     bottomAppBarTheme: const BottomAppBarTheme(
-      color: AppColors.xlBlack,
+      color: CommonColors.xlBlack,
     ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       backgroundColor: Colors.white,
-      selectedItemColor: AppColors.xlBlack,
-      unselectedItemColor: AppColors.mGrey,
+      selectedItemColor: CommonColors.xlBlack,
+      unselectedItemColor: CommonColors.mGrey,
       type: BottomNavigationBarType.fixed,
     ),
   );
@@ -52,10 +52,10 @@ ThemeData themeLight() {
 ThemeData themeDark() {
   return ThemeData.dark().copyWith(
     // primaryColor: Color(0xFF007F80),
-    primaryColor: AppColors.white,
+    primaryColor: CommonColors.white,
     primaryColorDark: const Color(0xFF007F80),
     appBarTheme: AppBarTheme(
-      iconTheme: const IconThemeData(color: AppColors.xlBlack),
+      iconTheme: const IconThemeData(color: CommonColors.xlBlack),
       backgroundColor: Colors.white,
       elevation: 1,
       shadowColor: const Color(0xFFD9D9D9),
@@ -64,29 +64,29 @@ ThemeData themeDark() {
     ),
     visualDensity: VisualDensity.adaptivePlatformDensity,
     textTheme: const TextTheme(
-      subtitle1: TextStyle(fontSize: 16, color: AppColors.xlBlack),
-      bodyText1: TextStyle(fontSize: 13, color: AppColors.xlBlack),
-      bodyText2: TextStyle(fontSize: 14, color: AppColors.xlBlack),
-      caption: TextStyle(fontSize: 10, color: AppColors.gray),
+      subtitle1: TextStyle(fontSize: 16, color: CommonColors.xlBlack),
+      bodyText1: TextStyle(fontSize: 13, color: CommonColors.xlBlack),
+      bodyText2: TextStyle(fontSize: 14, color: CommonColors.xlBlack),
+      caption: TextStyle(fontSize: 10, color: CommonColors.gray),
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
-        foregroundColor: MaterialStateProperty.all<Color>(AppColors.xlBlack),
+        foregroundColor: MaterialStateProperty.all<Color>(CommonColors.xlBlack),
       ),
     ),
     tabBarTheme: TabBarTheme(
-      unselectedLabelColor: AppColors.tabNotSelected,
-      unselectedLabelStyle: const TextStyle(color: AppColors.tabNotSelected),
-      labelColor: AppColors.mBlue,
+      unselectedLabelColor: CommonColors.tabNotSelected,
+      unselectedLabelStyle: const TextStyle(color: CommonColors.tabNotSelected),
+      labelColor: CommonColors.mBlue,
       labelStyle: AppTypography.smallSemiBold,
     ),
     bottomAppBarTheme: const BottomAppBarTheme(
-      color: AppColors.xlBlack,
+      color: CommonColors.xlBlack,
     ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       backgroundColor: Colors.white,
-      selectedItemColor: AppColors.xlBlack,
-      unselectedItemColor: AppColors.mGrey,
+      selectedItemColor: CommonColors.xlBlack,
+      unselectedItemColor: CommonColors.mGrey,
       type: BottomNavigationBarType.fixed,
     ),
   );

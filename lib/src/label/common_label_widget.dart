@@ -20,9 +20,9 @@ class CommonLabelWidget extends StatelessWidget {
 
     switch (text.toLowerCase()) {
       case 'hadir':
-        return AppColors.green[100]!;
+        return CommonColors.green[100]!;
       case 'izin':
-        return AppColors.blue[100]!;
+        return CommonColors.blue[100]!;
       default:
         return Colors.transparent;
     }
@@ -35,11 +35,11 @@ class CommonLabelWidget extends StatelessWidget {
 
     switch (text.toLowerCase()) {
       case 'hadir':
-        return AppColors.green[600]!;
+        return CommonColors.green[600]!;
       case 'izin':
-        return AppColors.blue[600]!;
+        return CommonColors.blue[600]!;
       default:
-        return AppColors.black[500]!;
+        return CommonColors.black[500]!;
     }
   }
 

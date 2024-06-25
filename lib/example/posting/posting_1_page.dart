@@ -29,7 +29,7 @@ class _MainComponentPageState extends State<Posting1Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.white,
+      backgroundColor: CommonColors.white,
       appBar: AppBar(
         title: Text(
           widget.title,
@@ -59,7 +59,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                       '31 Januari 2022',
                       style: AppTypography.extraSmallRegular.copyWith(
                         fontSize: 11,
-                        color: AppColors.mGrey,
+                        color: CommonColors.mGrey,
                       ),
                     ),
                   ],
@@ -104,7 +104,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                 Text(
                   'XXX Orang',
                   style: AppTypography.extraSmallBold.copyWith(
-                    color: AppColors.mBlue,
+                    color: CommonColors.mBlue,
                   ),
                 ),
               ],
@@ -188,7 +188,7 @@ class _MainComponentPageState extends State<Posting1Page> {
             width: 300,
             height: 300,
             fit: BoxFit.cover,
-            border: Border.all(color: AppColors.xsGrey),
+            border: Border.all(color: CommonColors.xsGrey),
             radius: AppRadius.lg,
           ),
         );
@@ -205,7 +205,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                     width: 300,
                     height: 300,
                     fit: BoxFit.cover,
-                    border: Border.all(color: AppColors.xsGrey),
+                    border: Border.all(color: CommonColors.xsGrey),
                     radius: AppRadius.lg,
                   ),
                 ),
@@ -219,7 +219,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                     width: 300,
                     height: 300,
                     fit: BoxFit.cover,
-                    border: Border.all(color: AppColors.xsGrey),
+                    border: Border.all(color: CommonColors.xsGrey),
                     radius: AppRadius.lg,
                   ),
                 ),
@@ -237,7 +237,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                 width: 300,
                 height: 300,
                 fit: BoxFit.cover,
-                border: Border.all(color: AppColors.xsGrey),
+                border: Border.all(color: CommonColors.xsGrey),
                 radius: AppRadius.lg,
               ),
             ),
@@ -253,7 +253,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                       width: 300,
                       height: 300,
                       fit: BoxFit.cover,
-                      border: Border.all(color: AppColors.xsGrey),
+                      border: Border.all(color: CommonColors.xsGrey),
                       radius: AppRadius.lg,
                     ),
                   ),
@@ -267,7 +267,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                       width: 300,
                       height: 300,
                       fit: BoxFit.cover,
-                      border: Border.all(color: AppColors.xsGrey),
+                      border: Border.all(color: CommonColors.xsGrey),
                       radius: AppRadius.lg,
                     ),
                   ),
@@ -286,7 +286,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                 width: 300,
                 height: 300,
                 fit: BoxFit.cover,
-                border: Border.all(color: AppColors.xsGrey),
+                border: Border.all(color: CommonColors.xsGrey),
                 radius: AppRadius.lg,
               ),
             ),
@@ -302,7 +302,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                       width: 300,
                       height: 300,
                       fit: BoxFit.cover,
-                      border: Border.all(color: AppColors.xsGrey),
+                      border: Border.all(color: CommonColors.xsGrey),
                       radius: AppRadius.lg,
                     ),
                   ),
@@ -316,7 +316,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                       width: 300,
                       height: 300,
                       fit: BoxFit.cover,
-                      border: Border.all(color: AppColors.xsGrey),
+                      border: Border.all(color: CommonColors.xsGrey),
                       radius: AppRadius.lg,
                     ),
                   ),
@@ -332,7 +332,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                             width: 300,
                             height: 300,
                             fit: BoxFit.cover,
-                            border: Border.all(color: AppColors.xsGrey),
+                            border: Border.all(color: CommonColors.xsGrey),
                             radius: AppRadius.lg,
                           ),
                           Container(
@@ -344,7 +344,7 @@ class _MainComponentPageState extends State<Posting1Page> {
                             child: Text(
                               '+1',
                               style: AppTypography.heading5.copyWith(
-                                color: AppColors.white,
+                                color: CommonColors.white,
                                 fontWeight: FontWeight.w700,
                               ),
                             ),

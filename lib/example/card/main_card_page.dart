@@ -24,7 +24,7 @@ class _MainComponentPageState extends State<MainCardPage> {
               width: MediaQuery.of(context).size.width / 2.5,
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: AppRadius.lg,
                 boxShadow: AppShadow.base,
               ),
@@ -49,7 +49,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                     'Donec non maximus nulla. Proin pretium, augue a pulvi',
                     style: AppTypography.extraSmallRegular.copyWith(
                       fontSize: 11,
-                      color: AppColors.mGrey,
+                      color: CommonColors.mGrey,
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -93,7 +93,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                 Container(
                   width: MediaQuery.of(context).size.width / 2.5,
                   decoration: BoxDecoration(
-                    color: AppColors.white,
+                    color: CommonColors.white,
                     borderRadius: AppRadius.lg,
                     boxShadow: AppShadow.md,
                   ),
@@ -154,7 +154,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                 children: [
                                   const Icon(
                                     AppIcons.ic_category,
-                                    color: AppColors.mBlue,
+                                    color: CommonColors.mBlue,
                                     size: 16,
                                   ),
                                   const SizedBox(width: 2),
@@ -163,7 +163,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                     style: AppTypography.extraSmallRegular
                                         .copyWith(
                                       fontSize: 8,
-                                      color: AppColors.mBlue,
+                                      color: CommonColors.mBlue,
                                     ),
                                   ),
                                 ],
@@ -175,7 +175,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                 children: [
                                   const Icon(
                                     AppIcons.ic_category,
-                                    color: AppColors.mBlue,
+                                    color: CommonColors.mBlue,
                                     size: 16,
                                   ),
                                   const SizedBox(width: 2),
@@ -184,7 +184,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                     style: AppTypography.extraSmallRegular
                                         .copyWith(
                                       fontSize: 8,
-                                      color: AppColors.mBlue,
+                                      color: CommonColors.mBlue,
                                     ),
                                   ),
                                 ],
@@ -201,7 +201,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                 Container(
                   width: MediaQuery.of(context).size.width / 2.5,
                   decoration: BoxDecoration(
-                    color: AppColors.white,
+                    color: CommonColors.white,
                     borderRadius: AppRadius.lg,
                     boxShadow: AppShadow.md,
                   ),
@@ -262,7 +262,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                 children: [
                                   const Icon(
                                     AppIcons.ic_category,
-                                    color: AppColors.mBlue,
+                                    color: CommonColors.mBlue,
                                     size: 16,
                                   ),
                                   const SizedBox(width: 2),
@@ -271,7 +271,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                     style: AppTypography.extraSmallRegular
                                         .copyWith(
                                       fontSize: 8,
-                                      color: AppColors.mBlue,
+                                      color: CommonColors.mBlue,
                                     ),
                                   ),
                                 ],
@@ -283,7 +283,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                 children: [
                                   const Icon(
                                     AppIcons.ic_category,
-                                    color: AppColors.mBlue,
+                                    color: CommonColors.mBlue,
                                     size: 16,
                                   ),
                                   const SizedBox(width: 2),
@@ -292,7 +292,7 @@ class _MainComponentPageState extends State<MainCardPage> {
                                     style: AppTypography.extraSmallRegular
                                         .copyWith(
                                       fontSize: 8,
-                                      color: AppColors.mBlue,
+                                      color: CommonColors.mBlue,
                                     ),
                                   ),
                                 ],

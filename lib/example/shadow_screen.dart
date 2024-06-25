@@ -18,13 +18,13 @@ class ShadowScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(4),
                 ),
                 boxShadow: <BoxShadow>[
                   BoxShadow(
-                    color: AppColors.gray[200]!,
+                    color: CommonColors.gray[200]!,
                     offset: const Offset(0, 0),
                     blurRadius: 0,
                     spreadRadius: 1,
@@ -37,7 +37,7 @@ class ShadowScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(4),
                 ),
@@ -49,7 +49,7 @@ class ShadowScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(4),
                 ),
@@ -61,7 +61,7 @@ class ShadowScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(4),
                 ),
@@ -73,7 +73,7 @@ class ShadowScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(4),
                 ),
@@ -85,7 +85,7 @@ class ShadowScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(4),
                 ),
@@ -100,7 +100,7 @@ class ShadowScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: AppColors.white,
+                color: CommonColors.white,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(4),
                 ),

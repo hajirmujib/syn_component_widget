@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppColors {
+class CommonColors {
   /// Neutral Colors
   static const Color xlBlack = Color(0xFF151617);
   static const Color lBlack = Color(0xFF38363E);

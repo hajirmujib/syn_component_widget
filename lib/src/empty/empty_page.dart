@@ -45,7 +45,7 @@ class EmptyPage extends StatelessWidget {
               child: Text(
                 title ?? '',
                 style: AppTypography.smallBold.copyWith(
-                  color: AppColors.mGrey,
+                  color: CommonColors.mGrey,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -57,7 +57,7 @@ class EmptyPage extends StatelessWidget {
               // "Yuk, cari dan jelajahi berbagai macam topik dan group pilihan",
               content,
               style: AppTypography.smallRegular.copyWith(
-                color: AppColors.mGrey,
+                color: CommonColors.mGrey,
               ),
               textAlign: TextAlign.center,
             ),
@@ -67,10 +67,10 @@ class EmptyPage extends StatelessWidget {
             child: FittedBox(
               child: CommonButton(
                 minWidth: 250,
-                backgroundColor: AppColors.mBlue,
+                backgroundColor: CommonColors.mBlue,
                 borderRadius: AppRadius.full,
                 title: textButton,
-                colorBorder: AppColors.mBlue,
+                colorBorder: CommonColors.mBlue,
                 // isFill: true,
                 onPressed: onPressed,
               ),

@@ -26,7 +26,7 @@ class CommonRadio extends StatelessWidget {
         Text(
           title,
           style: AppTypography.smallMedium.copyWith(
-            color: AppColors.gray[700],
+            color: CommonColors.gray[700],
           ),
         )
       ],

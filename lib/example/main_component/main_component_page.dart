@@ -36,7 +36,7 @@ class _MainComponentPageState extends State<MainComponentPage> {
                     icon: const Icon(
                       AppIcons.ic_notification,
                       size: 36,
-                      color: AppColors.mGrey,
+                      color: CommonColors.mGrey,
                     ),
                   ),
                   IconButton(
@@ -185,7 +185,7 @@ class _MainComponentPageState extends State<MainComponentPage> {
                       title: 'Post',
                       widgetType: WidgetType.sm,
                       borderRadius: AppRadius.full,
-                      backgroundColor: AppColors.mBlue,
+                      backgroundColor: CommonColors.mBlue,
                       onPressed: () {},
                     ),
                   ),

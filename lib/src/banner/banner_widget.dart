@@ -100,7 +100,7 @@ class _BannerWidgetState extends State<BannerWidget> {
                 decorator: DotsDecorator(
                   size: const Size.square(9.0),
                   activeSize: const Size(18.0, 9.0),
-                  activeColor: AppColors.gray,
+                  activeColor: CommonColors.gray,
                   color: const Color(0xFFD8D8D8),
                   activeShape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
@@ -112,26 +112,5 @@ class _BannerWidgetState extends State<BannerWidget> {
         ],
       ),
     );
-    // return Container(
-    //   height: 141,
-    //   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-    //   child: ListView.builder(
-    //     shrinkWrap: true,
-    //     scrollDirection: Axis.horizontal,
-    //     // itemExtent: 100,
-    //     itemCount: 3,
-    //     itemBuilder: (context, index) {
-    //       return Container(
-    //         height: 141, //16:9
-    //         width: 250,
-    //         margin: const EdgeInsets.only(right: 8),
-    //         decoration: BoxDecoration(
-    //           borderRadius: BorderRadius.all(Radius.circular(8)),
-    //           color: AppColors.shimmer,
-    //         ),
-    //       );
-    //     },
-    //   ),
-    // );
   }
 }

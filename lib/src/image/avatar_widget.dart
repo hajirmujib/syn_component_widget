@@ -46,7 +46,7 @@ class AvatarWidget extends StatelessWidget {
             width: width,
             height: height,
             radius: BorderRadius.all(Radius.circular(radius)),
-            border: border ?? Border.all(color: AppColors.mBlue),
+            border: border ?? Border.all(color: CommonColors.mBlue),
           ),
           Visibility(
             visible: isVerified,
@@ -56,7 +56,7 @@ class AvatarWidget extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: AppRadius.full,
-                  color: AppColors.white,
+                  color: CommonColors.white,
                 ),
                 child: Image.asset(
                   'assets/images/icons/ic_verified_box.png',

@@ -47,7 +47,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                           '31 Januari 2022',
                           style: AppTypography.extraSmallRegular.copyWith(
                             fontSize: 11,
-                            color: AppColors.mGrey,
+                            color: CommonColors.mGrey,
                           ),
                         ),
                       ],
@@ -139,7 +139,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                 decoration: BoxDecoration(
                   borderRadius: AppRadius.lg,
                   boxShadow: AppShadow.xl,
-                  color: AppColors.white,
+                  color: CommonColors.white,
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -157,7 +157,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                       ),
                     ),
                     const DividerWidget(
-                      color: AppColors.mBlue,
+                      color: CommonColors.mBlue,
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(
@@ -173,7 +173,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                               Text(
                                 'Nama Komunitas',
                                 style: AppTypography.extraSmallRegular.copyWith(
-                                  color: AppColors.mGrey,
+                                  color: CommonColors.mGrey,
                                 ),
                               ),
                               const SizedBox(height: 4),
@@ -190,7 +190,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                               Text(
                                 'Nama Komunitas',
                                 style: AppTypography.extraSmallRegular.copyWith(
-                                  color: AppColors.mGrey,
+                                  color: CommonColors.mGrey,
                                 ),
                               ),
                               const SizedBox(height: 4),
@@ -204,7 +204,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                           CommonButton(
                             title: 'Kelola komunitas',
                             borderRadius: AppRadius.full,
-                            backgroundColor: AppColors.mBlue,
+                            backgroundColor: CommonColors.mBlue,
                             onPressed: () {
                               log('message');
                             },
@@ -230,7 +230,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                                 Text(
                                   'Detail',
                                   style: AppTypography.smallBold.copyWith(
-                                    color: AppColors.mGrey,
+                                    color: CommonColors.mGrey,
                                   ),
                                 ),
                                 Icon(
@@ -248,7 +248,7 @@ class _MainComponentPageState extends State<MainCommunityPage> {
                               children: [
                                 const SizedBox(height: 8),
                                 const DividerDashWidget(
-                                  color: AppColors.mBlue,
+                                  color: CommonColors.mBlue,
                                 ),
                                 const SizedBox(height: 16),
                                 Text(

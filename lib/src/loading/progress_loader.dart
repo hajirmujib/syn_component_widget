@@ -16,7 +16,7 @@ Future<void> showSnackBar(
   late Color backgroundColor;
   switch (status) {
     case Status.SUCCESS:
-      backgroundColor = AppColors.green;
+      backgroundColor = CommonColors.green;
       icon = const Icon(
         AppIcons.ic_close,
         color: Colors.white,
@@ -69,7 +69,7 @@ Future<void> showSnackBar(
             child: Text(
               message,
               style: AppTypography.smallRegular.copyWith(
-                color: AppColors.white,
+                color: CommonColors.white,
               ),
             ),
           ),

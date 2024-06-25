@@ -25,16 +25,7 @@ class BannerItemView extends StatelessWidget {
         height: 16 / 9, //16:9
         width: 250,
         margin: margin,
-        // decoration: BoxDecoration(
-        //   borderRadius: BorderRadius.all(Radius.circular(radius ?? 16)),
-        //   color: AppColors.shimmer,
-        //   image: DecorationImage(
-        //     // image: NetworkImage(
-        //     //     'https://foto.kontan.co.id/3w2jQtt4o_BgiPK1b24ygZkKFgw=/smart/2021/10/06/1210758355p.jpg'),
-        //     image: NetworkImage(urlImage),
-        //     fit: BoxFit.cover,
-        //   ),
-        // ),
+
         child: CommonImageWidget(
           placeholder: 'assets/images/placeholder/placeholder.png',
           image: urlImage,
@@ -45,13 +36,6 @@ class BannerItemView extends StatelessWidget {
             Radius.circular(8),
           ),
         ),
-        // child: Center(
-        //   child: Icon(
-        //     AppIcons.ic_dummy_video,
-        //     size: 50,
-        //     color: Color(0xAFbce0fd),
-        //   ),
-        // ),
       ),
     );
   }

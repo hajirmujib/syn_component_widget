@@ -128,7 +128,7 @@ class CommonTextFormWithoutBorder extends StatelessWidget {
                   ),
                   helperMaxLines: 2,
                   contentPadding: const EdgeInsets.only(top: 16),
-                  fillColor: readOnly ? AppColors.gray[100] : Colors.white,
+                  fillColor: readOnly ? CommonColors.gray[100] : Colors.white,
                   hintStyle: AppTypography.smallRegular.copyWith(
                     color: const Color(0xFFc0c3cb),
                   ),

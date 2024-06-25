@@ -34,7 +34,7 @@ Future<void> showModalBottomSheetDynamic(
               topLeft: Radius.circular(radius),
               topRight: Radius.circular(radius),
             ),
-            color: AppColors.white,
+            color: CommonColors.white,
           ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -48,7 +48,7 @@ Future<void> showModalBottomSheetDynamic(
                     height: 4,
                     width: 40,
                     decoration: BoxDecoration(
-                      color: AppColors.gray[200],
+                      color: CommonColors.gray[200],
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
@@ -59,10 +59,6 @@ Future<void> showModalBottomSheetDynamic(
                 child: Align(
                   alignment: titlePosition,
                   child: SizedBox(
-                    // padding: const EdgeInsets.only(
-                    //   top: 8,
-                    //   bottom: 8,
-                    // ),
                     child: Row(
                       children: [
                         prefixWidget ?? const SizedBox(),
@@ -85,12 +81,12 @@ Future<void> showModalBottomSheetDynamic(
                                 height: 32,
                                 decoration: BoxDecoration(
                                   borderRadius: AppRadius.lg,
-                                  color: AppColors.gray[200],
+                                  color: CommonColors.gray[200],
                                 ),
                                 child: Icon(
                                   Icons.close,
                                   size: 16,
-                                  color: AppColors.gray[700],
+                                  color: CommonColors.gray[700],
                                 ),
                               ),
                             ),
@@ -105,14 +101,6 @@ Future<void> showModalBottomSheetDynamic(
                   height: 16,
                 ),
               ),
-              // ConstrainedBox(
-              //   constraints: new BoxConstraints(
-              //     maxHeight: MediaQuery.of(context).size.height /
-              //         4.0 *
-              //         3.0, //this height is not contain `Text("Just a title")`'s height.
-              //   ),
-              //   child: target,
-              // ),
               target ?? const SizedBox()
             ],
           ),

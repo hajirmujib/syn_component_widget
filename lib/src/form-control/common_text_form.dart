@@ -133,7 +133,7 @@ class CommonTextForm extends StatelessWidget {
                   ),
                   helperMaxLines: 2,
                   contentPadding: const EdgeInsets.only(top: 16),
-                  fillColor: readOnly ? AppColors.gray[100] : Colors.white,
+                  fillColor: readOnly ? CommonColors.gray[100] : Colors.white,
                   hintStyle: AppTypography.smallRegular.copyWith(
                     color: const Color(0xFFc0c3cb),
                   ),
@@ -148,7 +148,7 @@ class CommonTextForm extends StatelessWidget {
                     borderRadius:
                         BorderRadius.all(Radius.circular(radius ?? 8)),
                     borderSide: BorderSide(
-                      color: AppColors.gray[200]!,
+                      color: CommonColors.gray[200]!,
                     ),
                   ),
                   enabledBorder: OutlineInputBorder(
@@ -156,8 +156,9 @@ class CommonTextForm extends StatelessWidget {
                         ? BorderRadius.all(Radius.circular(radius!))
                         : AppRadius.lg,
                     borderSide: BorderSide(
-                      color:
-                          readOnly ? Colors.transparent : AppColors.gray[200]!,
+                      color: readOnly
+                          ? Colors.transparent
+                          : CommonColors.gray[200]!,
                     ),
                   ),
                   disabledBorder: OutlineInputBorder(
@@ -165,7 +166,7 @@ class CommonTextForm extends StatelessWidget {
                         ? BorderRadius.all(Radius.circular(radius!))
                         : AppRadius.lg,
                     borderSide: BorderSide(
-                      color: AppColors.gray[200]!,
+                      color: CommonColors.gray[200]!,
                     ),
                   ),
                   errorBorder: OutlineInputBorder(
@@ -180,7 +181,7 @@ class CommonTextForm extends StatelessWidget {
                         ? BorderRadius.all(Radius.circular(radius!))
                         : AppRadius.lg,
                     borderSide: BorderSide(
-                      color: AppColors.gray[200]!,
+                      color: CommonColors.gray[200]!,
                     ),
                   ),
                 ),

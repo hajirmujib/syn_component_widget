@@ -16,7 +16,8 @@ InputDecoration inputOutlineDecorationStyle({
       helperStyle: AppTypography.extraSmallRegular.copyWith(
         fontWeight: FontWeight.w400,
       ),
-      hintStyle: AppTypography.smallRegular.copyWith(color: Color(0xFFc0c3cb)),
+      hintStyle:
+          AppTypography.smallRegular.copyWith(color: const Color(0xFFc0c3cb)),
       hintText: hintText,
       contentPadding: contentPadding ??
           const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
@@ -26,20 +27,20 @@ InputDecoration inputOutlineDecorationStyle({
         borderRadius: BorderRadius.circular(radius ?? 10.0),
         gapPadding: 0,
         borderSide: BorderSide(
-          color: AppColors.gray[200]!,
+          color: CommonColors.gray[200]!,
           width: 1,
         ),
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(radius ?? 10.0),
         borderSide: BorderSide(
-          color: AppColors.gray[200]!,
+          color: CommonColors.gray[200]!,
         ),
       ),
       disabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(radius ?? 10.0),
         borderSide: BorderSide(
-          color: AppColors.gray[200]!,
+          color: CommonColors.gray[200]!,
         ),
       ),
       errorBorder: OutlineInputBorder(
@@ -51,7 +52,7 @@ InputDecoration inputOutlineDecorationStyle({
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(radius ?? 10.0),
         borderSide: BorderSide(
-          color: AppColors.gray[200]!,
+          color: CommonColors.gray[200]!,
         ),
       ),
     );

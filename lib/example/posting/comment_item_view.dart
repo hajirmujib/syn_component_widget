@@ -35,7 +35,7 @@ class CommentItemView extends StatelessWidget {
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: AppRadius.base,
-                    color: AppColors.xssGrey,
+                    color: CommonColors.xssGrey,
                   ),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 8,
@@ -58,26 +58,26 @@ class CommentItemView extends StatelessWidget {
                           '31 Jan 2022',
                           style: AppTypography.extraSmallRegular.copyWith(
                             fontSize: 11,
-                            color: AppColors.sGrey,
+                            color: CommonColors.sGrey,
                           ),
                         ),
                         const SizedBox(width: 4),
                         Container(
                           height: 14,
                           width: 1,
-                          color: AppColors.sGrey,
+                          color: CommonColors.sGrey,
                         ),
                         const SizedBox(width: 4),
                         Row(
                           children: [
                             const Icon(AppIcons.ic_like_fill,
-                                color: AppColors.mBlue),
+                                color: CommonColors.mBlue),
                             const SizedBox(width: 4),
                             Text(
                               '10',
                               style: AppTypography.extraSmallRegular.copyWith(
                                 fontSize: 11,
-                                color: AppColors.mBlue,
+                                color: CommonColors.mBlue,
                               ),
                             ),
                           ],
@@ -90,15 +90,15 @@ class CommentItemView extends StatelessWidget {
                           'Disukai',
                           style: AppTypography.extraSmallRegular.copyWith(
                             fontSize: 11,
-                            color: AppColors.mBlue,
+                            color: CommonColors.mBlue,
                           ),
                         ),
                         const SizedBox(width: 8),
                         CommonButton(
                           title: 'Balas',
                           borderRadius: AppRadius.full,
-                          colorBorder: AppColors.mBlue,
-                          color: AppColors.mBlue,
+                          colorBorder: CommonColors.mBlue,
+                          color: CommonColors.mBlue,
                           widgetType: WidgetType.xs,
                           onPressed: () {},
                         )

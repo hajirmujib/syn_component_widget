@@ -57,7 +57,7 @@ class FormControllerScreen extends StatelessWidget {
                 hintText: 'Type message...',
                 prefixIcon: Container(
                   decoration: BoxDecoration(
-                    color: AppColors.gray[200],
+                    color: CommonColors.gray[200],
                     borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(8),
                       bottomLeft: Radius.circular(8),
@@ -65,7 +65,7 @@ class FormControllerScreen extends StatelessWidget {
                   ),
                   child: Icon(
                     Icons.home,
-                    color: AppColors.gray[700],
+                    color: CommonColors.gray[700],
                   ),
                 ),
               ),
@@ -76,7 +76,7 @@ class FormControllerScreen extends StatelessWidget {
                 hintText: 'Type message...',
                 suffixIcon: Container(
                   decoration: BoxDecoration(
-                    color: AppColors.gray[200],
+                    color: CommonColors.gray[200],
                     borderRadius: const BorderRadius.only(
                       topRight: Radius.circular(8),
                       bottomRight: Radius.circular(8),
@@ -84,7 +84,7 @@ class FormControllerScreen extends StatelessWidget {
                   ),
                   child: Icon(
                     Icons.home,
-                    color: AppColors.gray[700],
+                    color: CommonColors.gray[700],
                   ),
                 ),
               ),
@@ -95,7 +95,7 @@ class FormControllerScreen extends StatelessWidget {
                 hintText: 'Type message...',
                 prefixIcon: Container(
                   decoration: BoxDecoration(
-                    color: AppColors.gray[200],
+                    color: CommonColors.gray[200],
                     borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(8),
                       bottomLeft: Radius.circular(8),
@@ -103,12 +103,12 @@ class FormControllerScreen extends StatelessWidget {
                   ),
                   child: Icon(
                     Icons.home,
-                    color: AppColors.gray[700],
+                    color: CommonColors.gray[700],
                   ),
                 ),
                 suffixIcon: Container(
                   decoration: BoxDecoration(
-                    color: AppColors.gray[200],
+                    color: CommonColors.gray[200],
                     borderRadius: const BorderRadius.only(
                       topRight: Radius.circular(8),
                       bottomRight: Radius.circular(8),
@@ -116,7 +116,7 @@ class FormControllerScreen extends StatelessWidget {
                   ),
                   child: Icon(
                     Icons.home,
-                    color: AppColors.gray[700],
+                    color: CommonColors.gray[700],
                   ),
                 ),
               )

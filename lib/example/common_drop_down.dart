@@ -44,14 +44,14 @@ class CommonDropDown extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: AppRadius.lg,
                   border: Border.all(
-                    color: AppColors.gray[200]!,
+                    color: CommonColors.gray[200]!,
                   ),
                 ),
                 child: Row(
                   children: [
                     Icon(
                       Icons.person,
-                      color: AppColors.gray[700],
+                      color: CommonColors.gray[700],
                       size: 22,
                     ),
                     const SizedBox(width: 10),

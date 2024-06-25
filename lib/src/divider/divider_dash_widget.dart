@@ -5,7 +5,7 @@ class DividerDashWidget extends StatelessWidget {
   const DividerDashWidget({
     super.key,
     this.height = 1,
-    this.color = AppColors.divider,
+    this.color = CommonColors.divider,
     this.dash = 3.0,
   });
 

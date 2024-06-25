@@ -26,7 +26,7 @@ class CommonChip extends StatelessWidget {
       onTap: onPressed,
       child: Chip(
         backgroundColor: backgroundColor ?? Colors.white,
-        side: side ?? const BorderSide(color: AppColors.mBlue),
+        side: side ?? const BorderSide(color: CommonColors.mBlue),
         materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
         visualDensity: const VisualDensity(
           vertical: -4,
@@ -35,7 +35,7 @@ class CommonChip extends StatelessWidget {
           label,
           style: textStyle ??
               AppTypography.smallRegular.copyWith(
-                color: textColor ?? AppColors.mBlue,
+                color: textColor ?? CommonColors.mBlue,
               ),
         ),
       ),

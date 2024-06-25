@@ -59,17 +59,6 @@ class CommonButton extends StatelessWidget {
         );
       case WidgetType.sm:
         return SmallButton(
-          // key: key,
-          // title: title,
-          // color: color,
-          // colorBorder: colorBorder,
-          // backgroundColor: backgroundColor,
-          // minWidth: minWidth ?? 22,
-          // onPressed: onPressed,
-          // prefixIcon: prefixIcon,
-          // suffixIcon: suffixIcon,
-          // borderRadius: borderRadius,
-          // toggle: toggle,
           key: key,
           title: title,
           color: color,

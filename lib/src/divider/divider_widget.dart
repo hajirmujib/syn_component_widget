@@ -22,11 +22,11 @@ class DividerWidget extends StatelessWidget {
         ? Container(
             height: height,
             width: width,
-            color: color ?? AppColors.gray[200],
+            color: color ?? CommonColors.gray[200],
           )
         : Container(
             height: height,
-            color: color ?? AppColors.gray[200],
+            color: color ?? CommonColors.gray[200],
           );
   }
 }
