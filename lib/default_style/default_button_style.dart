@@ -33,7 +33,7 @@ class DefaultButtonStyle {
     BorderRadius? borderRadius,
   })  : backgroundColorDisable =
             backgroundColorDisable ?? defaultBackgroundColorDisable,
-        backgroundColor = backgroundColor ?? defaultBackgroundColor,
+        backgroundColor = defaultBackgroundColor,
         foregroundColorDark = foregroundColorDark ?? defaultForegroundColorDark,
         foregroundColorLight =
             foregroundColorLight ?? defaultForegroundColorLight,
@@ -41,27 +41,4 @@ class DefaultButtonStyle {
         colorBorderDisable = colorBorderDisable ?? defaultColorBorderDisable,
         colorBorder = colorBorder ?? defaultColorBorder,
         borderRadius = borderRadius ?? defaultBorderRadius;
-
-  DefaultButtonStyle copyWith({
-    Color? backgroundColorDisable,
-    Color? backgroundColor,
-    Color? foregroundColorDark,
-    Color? foregroundColorLight,
-    Color? fontColorDisable,
-    Color? colorBorderDisable,
-    Color? colorBorder,
-    BorderRadius? borderRadius,
-  }) {
-    return DefaultButtonStyle(
-      backgroundColorDisable:
-          backgroundColorDisable ?? this.backgroundColorDisable,
-      backgroundColor: backgroundColor ?? this.backgroundColor,
-      foregroundColorDark: foregroundColorDark ?? this.foregroundColorDark,
-      foregroundColorLight: foregroundColorLight ?? this.foregroundColorLight,
-      fontColorDisable: fontColorDisable ?? this.fontColorDisable,
-      colorBorderDisable: colorBorderDisable ?? this.colorBorderDisable,
-      colorBorder: colorBorder ?? this.colorBorder,
-      borderRadius: borderRadius ?? this.borderRadius,
-    );
-  }
 }
