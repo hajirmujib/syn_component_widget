@@ -3,42 +3,12 @@ import 'package:syn_common_widget/syn_ui.dart';
 
 class DefaultButtonStyle {
   // Static properties for default values
-  static Color defaultBackgroundColorDisable = CommonColors.gray.shade200;
-  static Color defaultBackgroundColor = CommonColors.white[500]!;
-  static Color defaultForegroundColorDark = CommonColors.gray[700]!;
-  static Color defaultForegroundColorLight = CommonColors.white;
-  static Color defaultFontColorDisable = CommonColors.gray[200]!;
-  static Color defaultColorBorderDisable = CommonColors.gray.shade200;
-  static Color defaultColorBorder = CommonColors.gray[200]!;
-  static BorderRadius defaultBorderRadius = AppRadius.md;
-
-  // Instance properties
-  Color backgroundColorDisable;
-  Color backgroundColor;
-  Color foregroundColorDark;
-  Color foregroundColorLight;
-  Color fontColorDisable;
-  Color colorBorderDisable;
-  Color colorBorder;
-  BorderRadius borderRadius;
-
-  DefaultButtonStyle({
-    Color? backgroundColorDisable,
-    Color? backgroundColor,
-    Color? foregroundColorDark,
-    Color? foregroundColorLight,
-    Color? fontColorDisable,
-    Color? colorBorderDisable,
-    Color? colorBorder,
-    BorderRadius? borderRadius,
-  })  : backgroundColorDisable =
-            backgroundColorDisable ?? defaultBackgroundColorDisable,
-        backgroundColor = defaultBackgroundColor,
-        foregroundColorDark = foregroundColorDark ?? defaultForegroundColorDark,
-        foregroundColorLight =
-            foregroundColorLight ?? defaultForegroundColorLight,
-        fontColorDisable = fontColorDisable ?? defaultFontColorDisable,
-        colorBorderDisable = colorBorderDisable ?? defaultColorBorderDisable,
-        colorBorder = colorBorder ?? defaultColorBorder,
-        borderRadius = borderRadius ?? defaultBorderRadius;
+  static Color backgroundColorDisable = CommonColors.gray.shade200;
+  static Color backgroundColor = CommonColors.white[500]!;
+  static Color foregroundColorDark = CommonColors.gray[700]!;
+  static Color foregroundColorLight = CommonColors.white;
+  static Color fontColorDisable = CommonColors.gray[200]!;
+  static Color colorBorderDisable = CommonColors.gray.shade200;
+  static Color colorBorder = CommonColors.gray[200]!;
+  static BorderRadius borderRadius = AppRadius.md;
 }
