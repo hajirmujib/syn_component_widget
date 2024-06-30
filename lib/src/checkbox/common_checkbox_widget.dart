@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:syn_common_widget/default_style/default_checkbox_style.dart';
 import 'package:syn_common_widget/syn_ui.dart';
 
 class CommonCheckboxWidget extends StatelessWidget {
@@ -24,20 +25,18 @@ class CommonCheckboxWidget extends StatelessWidget {
         child: Row(
           children: [
             SizedBox(
-              width: 32,
-              height: 32,
+              width: DefaultCheckboxStyle.defaultWidth,
+              height: DefaultCheckboxStyle.defaultHeight,
               child: Checkbox(
-                shape: const RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(5),
-                  ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: DefaultCheckboxStyle.defaultBorderRadius,
                 ),
                 materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                 value: value,
                 onChanged: onChanged,
               ),
             ),
-            const SizedBox(width: 8),
+            SizedBox(width: DefaultCheckboxStyle.defaultWidthSpace),
             Text(title, style: AppTypography.smallRegular),
           ],
         ),

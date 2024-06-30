@@ -35,42 +35,42 @@ class SmallButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    DefaultButtonStyle defaultButtonStyle = DefaultButtonStyle();
+
     return OutlinedButtonTheme(
       data: OutlinedButtonThemeData(
         style: ButtonStyle(
           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
           minimumSize: MaterialStateProperty.all<Size>(Size(minWidth, 32)),
-          foregroundColor: MaterialStateProperty.all<Color>(
+           foregroundColor: MaterialStateProperty.all<Color>(
             (backgroundColor == null || backgroundColor == CommonColors.white)
-                ? color ?? CommonColors.gray[700]!
-                : CommonColors.white,
+                ? color ?? defaultButtonStyle.foregroundColorDark
+                : defaultButtonStyle.foregroundColorLight,
           ),
           backgroundColor: MaterialStateProperty.resolveWith<Color>((states) {
             if (states.contains(MaterialState.disabled)) {
-              return CommonColors.gray.shade200;
+              return defaultButtonStyle.backgroundColorDisable;
             }
-            return backgroundColor ?? CommonColors.white[500]!;
+            return backgroundColor ?? defaultButtonStyle.backgroundColor;
           }),
-          // overlayColor: MaterialStateProperty.all<Color>(Colors.red),
-          // surfaceTintColor: MaterialStateProperty.all<Color>(Colors.red),
           textStyle: MaterialStateProperty.resolveWith<TextStyle>(
             (states) {
               if (states.contains(MaterialState.disabled)) {
                 return AppTypography.smallBold
-                    .copyWith(color: CommonColors.gray[200]);
+                    .copyWith(color: defaultButtonStyle.fontColorDisable);
               }
               return (AppTypography.smallBold.copyWith(color: color));
             },
           ),
           side: MaterialStateProperty.resolveWith<BorderSide>((states) {
-            if (states.contains(MaterialState.disabled)) {
-              return BorderSide(color: CommonColors.gray.shade200);
+         if (states.contains(MaterialState.disabled)) {
+              return BorderSide(color: defaultButtonStyle.colorBorderDisable);
             }
 
             return BorderSide(
               color: (backgroundColor == null ||
                       backgroundColor == CommonColors.white)
-                  ? colorBorder ?? CommonColors.gray[200]!
+                   ? colorBorder ?? defaultButtonStyle.colorBorder
                   : backgroundColor!,
             );
           }),
